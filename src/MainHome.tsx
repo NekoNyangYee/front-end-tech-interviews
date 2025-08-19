@@ -1,10 +1,9 @@
-import Header from "./components/Header";
-
+import { ContentLayout, Header } from "./components";
 export default function MainHome() {
   return (
     <>
       <Header />
-      <span>아</span>
+      <ContentLayout />
     </>
   );
 }
